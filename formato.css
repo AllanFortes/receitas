@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+/* Corpo */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(128, 128, 128, 0.459);
+    color: white;
+}
+
+body{
+    min-height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(255, 255, 0, 0.856);
+}
+
+h1, h2, h3{
+    font-family: 'Merriweather', serif;
+}
+
+
+/* Navegação */
+nav{
+    padding: 8px;
+}
+nav > a{
+    padding-right: 5px;
+}
+
+
+/* Rodapé */
+footer{
+    padding: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer:hover{
+    color: red;
+}
+
+/* HOME */
+.mhome{
+    min-width: 319;
+    padding: 210px;
+    text-align: center;
+}
+
+.mhome > img{
+    width: 50px;
+}
+
+.h1home{
+    font-size: 3em;
+}
+
+.phome{
+    font-size: 18px;
+}
+
+/* FIM HOME */
