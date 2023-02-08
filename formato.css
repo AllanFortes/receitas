@@ -24,6 +24,28 @@ main{
     min-height: 84vh;
 }
 
+
+.rart{
+    font-size: 1.5em;
+    padding: 5px;
+    text-align: center;
+}
+
+
+#Feijoada, #Farofa, #Palha{
+    min-width: 319px;
+    max-width: 1024px;
+    border: 1px solid black;
+    border-radius: 45px;
+    padding: 12px;
+    margin: 8px;
+    background-color: #FFED4C;
+}
+
+ul, ol{
+    margin: 10px;
+}
+
 h1, h2, h3{
     font-family: 'Merriweather', serif;
 }
