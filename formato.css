@@ -32,7 +32,7 @@ main{
 }
 
 
-#Feijoada, #Farofa, #Palha{
+.Feijoada, .Farofa, .Palha{
     min-width: 319px;
     max-width: 1024px;
     border: 1px solid black;
