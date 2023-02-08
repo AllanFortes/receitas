@@ -1,12 +1,15 @@
 @charset "utf-8";
 
-/* Corpo */
+/* Geral */
 
 *{
     margin: 0px;
     padding: 0px;
 }
+/* Fim Geral */
 
+
+/* Corpo */
 header{
     padding: 7px;
     font-family: Arial, Helvetica, sans-serif;
@@ -24,22 +27,72 @@ main{
     min-height: 84vh;
 }
 
-
 .rart{
     font-size: 1.5em;
     padding: 5px;
     text-align: center;
 }
 
+#imag{
+    width: 20%;
+    min-width: 30%;
+    padding-bottom: 5px;
+}
 
+/* Fim Corpo */
+
+
+/* Divs Feijoada, Farofa e Palha */
 .Feijoada, .Farofa, .Palha{
+    display: flex;
+    display: block;
     min-width: 319px;
     max-width: 1024px;
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.123);
     border-radius: 45px;
     padding: 12px;
     margin: 8px;
     background-color: #FFED4C;
+}
+
+.Feijoada > h2{
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+.Feijoada > p, li{
+    margin-right: 10px;
+}
+
+.Farofa > h2{
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+.Palha > h2{
+    padding-bottom: 8px;
+    text-align: center;
+}
+/* FIM Divs Feijoada, Farofa e Palha */
+
+
+/* Ingredientes */
+.Ingredientes > h3{
+    background-color: white;
+}
+
+.Ingredientes > p, li{
+    font-style: italic;
+}
+
+/* Fim Ingredientes */
+
+
+
+
+/* Modo de Preparo */
+.Preparo > h3{
+    background-color: lightgreen;
 }
 
 ul, ol{
@@ -49,6 +102,7 @@ ul, ol{
 h1, h2, h3{
     font-family: 'Merriweather', serif;
 }
+/* FIM Modo de Preparo */
 
 
 /* Navegação */
