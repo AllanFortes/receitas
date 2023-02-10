@@ -119,19 +119,6 @@ nav > a:hover{
 }
 
 
-/* Rodapé */
-footer{
-    padding: 1px;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: black;
-    color: white;
-    text-align: center;
-}
-
-footer:hover{
-    color: red;
-}
-
 /* HOME */
 .mhome{
     padding-top: 90px;
@@ -159,9 +146,11 @@ footer:hover{
 /* Cadastro */
 
 .form{
-    display: flex;
-    flex-direction: column;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
     padding: 1rem;
+    margin: auto;
 }
 
 .form-header{
@@ -175,7 +164,15 @@ footer:hover{
 .input-box{
     margin-bottom: 1.1rem;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+}
+
+.input-box1{
+    display: flex;
+}
+
+.input-box1 .input-box{
+    margin-right: 15px;
 }
 
 .input-box input[name="nome"], .input-box input[name="Email"], .input-box input[name="rua"]{
@@ -214,6 +211,15 @@ footer:hover{
     height: 30px;
 }
 
-.input-box label{
-    padding-right: 30px;
+/* Rodapé */
+footer{
+    padding: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer:hover{
+    color: red;
 }
