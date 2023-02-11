@@ -1,5 +1,6 @@
 @charset "utf-8";
 
+
 /* Geral */
 
 *{
@@ -153,10 +154,7 @@ nav > a:hover{
 
 .form{
     display: inline-block;
-    justify-content: center;
-    align-items: center;
     padding: 1rem;
-    margin: auto;
 }
 
 .form-header{
@@ -164,6 +162,8 @@ nav > a:hover{
 }
 
 .input-group{
+    display: flex;
+    flex-direction: column;
     margin-right: 5px;
 }
 
@@ -229,3 +229,4 @@ footer{
 footer:hover{
     color: red;
 }
+
