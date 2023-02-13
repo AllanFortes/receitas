@@ -151,22 +151,27 @@ nav > a:hover{
 
 
 /* Cadastro */
-
 .form{
+    background-color: #ffed4cc2;
     display: inline-block;
     padding: 1rem;
     min-height: 100vh;
+    border: 1px solid black;
 }
 
 .form-header{
+    border: 1px solid rgba(0, 0, 0, 0.384);
     margin-bottom: 1rem;
+}
+
+.tittle h1{
+    text-align: center;
 }
 
 .input-group{
     display: flex;
     flex-direction: column;
     margin-right: 5px;
-   
 }
 
 .input-box{
@@ -232,26 +237,12 @@ footer:hover{
     color: red;
 }
 
-@media screen and (max-width: 1024px){
-    .form, .input-box{
-        width: 100%;
-    }
-
-    .input-box1{
-        display: flex;
-    }
-    
-}
-
-
-@media screen and (min-width: 319px){
-    .form,
+@media only screen and (min-width: 319px){
     .input-box{
         width: 100%;
     }
 
-    .input-box1{
-        display: flex;
-        flex-direction: column;
+    .input-group > .input-box1 > .input-box{
+        width: 100%;
     }
 }
