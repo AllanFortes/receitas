@@ -157,6 +157,7 @@ nav > a:hover{
     padding: 1rem;
     min-height: 100vh;
     border: 1px solid black;
+    width: 100%;
 }
 
 .form-header{
@@ -182,6 +183,7 @@ nav > a:hover{
 
 .input-box1{
     display: flex;
+    width: 100%;
 }
 
 .input-box1 .input-box{
@@ -210,6 +212,7 @@ nav > a:hover{
      border-radius: 5px;
      width: 250px;
      height: 30px;
+     width: 100%;
 }
 
 .input-box input[name="cidade"]{
@@ -222,6 +225,10 @@ nav > a:hover{
     border-radius: 5px;
     width: 80px;
     height: 30px;
+}
+
+button{
+    width: 100%;
 }
 
 /* Rodapé */
@@ -237,9 +244,3 @@ footer:hover{
     color: red;
 }
 
-@media only screen and (min-width: 319px){
-    .container{
-        width: 100%;
-        margin: auto;
-    }
-}
